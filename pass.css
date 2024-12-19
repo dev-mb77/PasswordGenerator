@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+   background-color: crimson;
+   padding:20px;
+   width:350px;
+   max-width: 100%;
+
+}
+h2{
+    margin:10px 0px 20px;
+    text-align: center;
+}
+.result-container{
+    background-color: rgba(0, 0, 0, 0.4);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+    width:100%;
+    height:40px;
+
+}
+.btn{
+   border:none;
+   background-color: black;
+   color:white;
+   padding:8px 10px; 
+}
+.result-container .btn{
+    position:absolute;
+    right:1px;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+}
+.settings{
+    padding: 5px;
+}
+.setting{
+    display:flex;
+     justify-content: space-between;
+     align-items: center;
+     margin:15px 0px;
+}
+.btn-large{
+      color: white;
+      background-color: black;
+           padding: 5px 70px;
+           display: block;
+           margin-left: 10px;
+           cursor: pointer;
+           
+}
+
+input[type="checkbox"]{
+    accent-color: blue;
+}
+
